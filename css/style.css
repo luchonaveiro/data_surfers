@@ -689,21 +689,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 42%;
+  width: 37%;
 }
 
 #clients .pic_despegar {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 60%;
 }
 
 #clients .pic_gea {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 45%;
+  width: 37%;
 }
 
 
@@ -711,10 +711,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 47%;
+  width: 40%;
 }
-
-
 
 /* Testimonials Section
 --------------------------------*/
