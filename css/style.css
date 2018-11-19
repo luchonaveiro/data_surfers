@@ -48,6 +48,19 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff url("../img/preloader.svg") no-repeat center center;
 }
 
+/* Down arrow on home page */
+.start-down {
+    margin-right: 4px;
+    position: relative;
+    top: 130px;
+  }
+
+.start-down:hover {
+  color: #fff;
+}
+
+
+
 /* Back to top button */
 .back-to-top {
   position: fixed;
@@ -713,6 +726,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-right: auto;
   width: 40%;
 }
+
+
 
 /* Testimonials Section
 --------------------------------*/

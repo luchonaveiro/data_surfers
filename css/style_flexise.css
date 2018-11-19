@@ -68,8 +68,9 @@ width: 14em;
     z-index: 4;
     top: 50%;
     transform: translateY(-50%);   
-    background: rgba(0,0,0,0.5);
-    color: #fff;     
+    background: #fff;
+    color: #808080;
+    font-size: 25px;     
 }
 
 .nbs-flexisel-nav-left {
