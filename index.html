@@ -68,6 +68,9 @@
         <div class="actions">
           <a href="#about" class="btn-get-started">Conocenos</a>
           <a href="#services" class="btn-services">Nuestros Servicios</a>
+        <div class="row">
+          <a href="#about" class="start-down"><i class="fa fa-chevron-down" style="font-size:30px;"></i></a>
+        </div>
         </div>
       </div>
     </div>
@@ -457,7 +460,7 @@
           <div class="form">
             <div id="sendmessage">Su mensaje ha sido enviado. Muchas gracias!</div>
             <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
+            <form action="contactform/contactform.php" method="post" role="form" class="contactForm">
               <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingresar al menos 4 caracteres" />
                 <div class="validation"></div>
@@ -474,7 +477,7 @@
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Por favor escribir un mensaje" placeholder="Mensaje"></textarea>
                 <div class="validation"></div>
               </div>
-              <div class="text-center"><button type="submit" name="submit">Enviar</button></div>
+              <div class="text-center"><button type="submit" name="Submit" value="Submit">Enviar</button></div>
             </form>
           </div>
         </div>
