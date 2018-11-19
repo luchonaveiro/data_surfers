@@ -18,5 +18,5 @@
        mail($to, $subject, $body, $headers);
 
        // redirect afterwords, if needed
-       header('Location: thanks.html');
+       // header('Location: thanks.html');
 ?>
