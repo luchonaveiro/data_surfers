@@ -662,7 +662,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   #subscribe .form-popup {
-    padding-top: 2300px; /* Location of the box */
+    padding-top: 2600px; /* Location of the box */
     padding-left: 40px;
   }
 }
