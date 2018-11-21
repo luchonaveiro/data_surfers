@@ -203,8 +203,18 @@
            para nuestros clientes.</p>
         </div>
         <div class="col-md-4 subscribe-btn-container">
-          <a class="subscribe-btn" href="#">Subscribirse</a>
+          <a class="subscribe-btn" href="#suscribe" onclick="openForm()">Subscribirse</a>
         </div>
+        <div class="form-popup" id="myForm">
+          <form action="/action_page.php" class="form-container">
+            <span class="close" onclick="closeForm()">&times;</span>
+            <h3>Suscribite</h3>
+
+            <input type="text" placeholder="Ingresar email" name="email" required> 
+
+    <button type="submit" class="btn">Aceptar</button>
+  </form>
+</div>
       </div>
     </div>
   </section>
@@ -562,6 +572,17 @@
             });
    </script>
 
+   <!-- Funciones para el modal -->
+   <script>
+      function openForm() {
+          document.getElementById("myForm").style.display = "block";
+      }
+
+      function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+      }
+
+  </script>
 
 </body>
 
